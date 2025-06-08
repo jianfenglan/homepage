@@ -13,7 +13,7 @@ He currently serves as the Assitant Editor for journal Big Data & Society (SSCI,
 
 蓝剑锋现为上海交通大学媒体与传播学院博士候选人（硕博连读），导师为牟怡教授。他的研究兴趣集中在人与AI交互对个体亲密观和死亡观的影响。蓝剑锋曾于重庆大学新闻学院取得新闻学学士学位，导师为蒲俊杰教授。
 
-他现担任英文期刊Big Data & Society(SSCI, Q1)助理编辑，和英文期刊Emerging Media编辑助理。他也为英文期刊New Media & Society (SSCI, Q1),Psychology of Popular Media (SSCI, Q2)，以及ICA, NCA, AEJMC, IAMCR, ICIS, KACA等学术会议审稿人。他担任中华传播学会（NCA附属组织）学生委员主席(2024-2026)以及美国传播学协会传播与未来分会研究生代表(2024-2025)。
+他现担任英文期刊Big Data & Society(SSCI, Q1)助理编辑，和英文期刊Emerging Media编辑助理。他也担任英文期刊New Media & Society (SSCI, Q1),Psychology of Popular Media (SSCI, Q2)，以及ICA, NCA, AEJMC, IAMCR, ICIS, KACA等学术会议审稿人。他同时担任中华传播学会（NCA附属组织）学生委员主席(2024-2026)以及美国传播学协会传播与未来分会研究生代表(2024-2025)。
 
 
 Research Interests 研究兴趣
