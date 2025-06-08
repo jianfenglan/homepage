@@ -11,8 +11,6 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Jeff Jianfeng Lan ｜ 蓝剑锋"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
 url                      : "https://jianfenglan.com"
 baseurl                  : ""
 repository               : "jianfenglan.github.io/homepage"
@@ -27,7 +25,7 @@ author:
   bio              : "Ph.D. Candidate"
   pronouns         : "He/Him/His"  
   location         : "Shanghai, China"
-  employer         : "Shanghai Jiao Tong University"
+  employer         : "SJTU"
   uri              : # URL
   email            : "jeff_lan@sjtu.edu.cn" 
 
