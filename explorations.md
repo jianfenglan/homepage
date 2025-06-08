@@ -3,18 +3,17 @@ title: "Exploration: on the road"
 permalink: /explorations/
 author_profile: true
 ---
-
 <style>
+    /* 强制拓宽本页面的主内容区域 */
+    .page__inner-wrap {
+        max-width: 1600px !important;
+    }
     .gallery-grid {
         display: grid;
-        /* 1. 改为单列布局 */
-        grid-template-columns: 1fr; 
-        /* 适当增大了图片间的垂直间距 */
-        gap: 2.5rem; 
+        /* 让网格可以容纳更多列 */
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
         padding: 1rem 0;
-        /* 为了在大屏幕上显示效果更好，设定一个最大宽度并居中 */
-        max-width: 800px;
-        margin: 0 auto;
     }
     .gallery-card {
         border: 1px solid #e0e0e0;
@@ -29,7 +28,7 @@ author_profile: true
     }
     .gallery-card img {
         width: 100%;
-        /* 2. 移除了固定的 height: 220px; 让图片高度自适应 */
+        height: 250px; /* 增加了图片高度 */
         object-fit: cover;
         display: block;
     }
@@ -45,6 +44,7 @@ author_profile: true
         color: #333;
     }
 </style>
+
 
 <div class="gallery-grid">
     <div class="gallery-card">
