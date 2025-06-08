@@ -1,5 +1,4 @@
 ---
-title: "Exploration"
 permalink: /exploration/
 author_profile: true
 ---
