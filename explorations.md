@@ -3,18 +3,21 @@ title: "Exploration: on the road"
 permalink: /explorations/
 author_profile: true
 ---
+
 <style>
     /* 强制拓宽本页面的主内容区域 */
     .page__inner-wrap {
         max-width: 1600px !important;
     }
+    
     .gallery-grid {
         display: grid;
-        /* 让网格可以容纳更多列 */
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        gap: 1.5rem;
+        /* --- 改动 1: 设置为单列布局 --- */
+        grid-template-columns: 1fr;
+        gap: 2.5rem; /* 增大了卡片之间的垂直间距 */
         padding: 1rem 0;
     }
+
     .gallery-card {
         border: 1px solid #e0e0e0;
         border-radius: 12px;
@@ -22,21 +25,26 @@ author_profile: true
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
     .gallery-card:hover {
         transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
+
     .gallery-card img {
         width: 100%;
-        height: 250px; /* 增加了图片高度 */
+        /* --- 改动 2: 移除了固定高度，让图片可以按比例显示为大图 --- */
+        /* height: 250px; */
         object-fit: cover;
         display: block;
     }
+
     .gallery-caption {
-        padding: 1rem;
+        padding: 1rem 1.5rem;
         text-align: center;
         font-size: 0.9em;
         color: #555;
+        background: #fdfdfd;
     }
     .gallery-caption h3 {
         margin: 0 0 0.5rem 0;
