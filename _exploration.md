@@ -43,9 +43,9 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="/assets/images/explorations/你的照片名1.jpg" alt="西藏·纳木错">
+        <img src="/images/Wakayama.png" alt="和歌山">
         <div class="gallery-caption">
-            <h3>西藏 · 纳木错</h3>
+            <h3>和歌山</h3>
             <p>摄于2024年夏，圣湖的宁静与壮丽。</p>
         </div>
     </div>
