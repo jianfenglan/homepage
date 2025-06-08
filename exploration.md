@@ -7,9 +7,14 @@ author_profile: true
 <style>
     .gallery-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-        gap: 1.5rem; /* 网格间距 */
+        /* 1. 改为单列布局 */
+        grid-template-columns: 1fr; 
+        /* 适当增大了图片间的垂直间距 */
+        gap: 2.5rem; 
         padding: 1rem 0;
+        /* 为了在大屏幕上显示效果更好，设定一个最大宽度并居中 */
+        max-width: 800px;
+        margin: 0 auto;
     }
     .gallery-card {
         border: 1px solid #e0e0e0;
@@ -24,8 +29,8 @@ author_profile: true
     }
     .gallery-card img {
         width: 100%;
-        height: 220px;
-        object-fit: cover; /* 保证图片不变形 */
+        /* 2. 移除了固定的 height: 220px; 让图片高度自适应 */
+        object-fit: cover;
         display: block;
     }
     .gallery-caption {
@@ -43,7 +48,7 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="{{ '/images/Wakayama.png' | relative_url }}" alt="和歌山">
+        <img src="{{ '/images/Wakayama.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>Wakayama</h3>
             <p>11 March, 2025</p>
@@ -51,15 +56,15 @@ author_profile: true
     </div>
 
     <div class="gallery-card">
-        <img src="/assets/images/explorations/你的照片名2.jpg" alt="法国·巴黎铁塔">
+        <img src="{{ '/images/Osaka.png' | relative_url }}" >
         <div class="gallery-caption">
-            <h3>法国 · 巴黎</h3>
-            <p>塞纳河畔的日落，与铁塔的浪漫邂逅。</p>
+            <h3>Osaka</h3>
+            <p>10 March, 2025</p>
         </div>
     </div>
 
     <div class="gallery-card">
-        <img src="/assets/images/explorations/你的照片名3.jpg" alt="日本·京都清水寺">
+        <img src="{{ '/images/你的照片名3.jpg' | relative_url }}" alt="日本·京都清水寺">
         <div class="gallery-caption">
             <h3>日本 · 京都</h3>
             <p>秋日的清水寺，红枫如火。</p>
@@ -67,7 +72,7 @@ author_profile: true
     </div>
 
     <div class="gallery-card">
-        <img src="/assets/images/explorations/你的照片名4.jpg" alt="冰岛·极光">
+        <img src="{{ '/images/你的照片名4.jpg' | relative_url }}" alt="冰岛·极光">
         <div class="gallery-caption">
             <h3>冰岛 · 雷克雅未克</h3>
             <p>追逐欧若拉的夜晚，终生难忘。</p>
