@@ -43,10 +43,10 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="/images/Wakayama.png" alt="和歌山">
+        <img src="/images/Wakayama.png">
         <div class="gallery-caption">
-            <h3>和歌山</h3>
-            <p>摄于2024年夏，圣湖的宁静与壮丽。</p>
+            <h3>和</h3>
+            <p>11 March, 2025</p>
         </div>
     </div>
 
