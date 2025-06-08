@@ -43,7 +43,7 @@ author_profile: true
 
 <div class="gallery-grid">
     <div class="gallery-card">
-        <img src="homepage/images/Wakayama.png">
+        <img src="{{ '/images/Wakayama.png' | relative_url }}" alt="和歌山">
         <div class="gallery-caption">
             <h3>Wakayama</h3>
             <p>11 March, 2025</p>
