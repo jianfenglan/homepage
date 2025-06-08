@@ -1,6 +1,6 @@
 ---
 title: "Exploration: on the road"
-permalink: /exploration/
+permalink: /explorations/
 author_profile: true
 ---
 
