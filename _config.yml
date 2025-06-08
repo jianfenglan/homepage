@@ -13,7 +13,7 @@ title                    : "Jeff Jianfeng Lan ｜ 蓝剑锋"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : "https://jianfenglan.github.io/homepage/"
+url                      : "https://jianfenglan.github.io/homepage"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jianfenglan.github.io/homepage"
 
