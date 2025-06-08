@@ -3,7 +3,63 @@ title: "News: on my mind"
 permalink: /news/
 author_profile: true
 ---
-
+<style>
+    /* 强制拓宽本页面的主内容区域 */
+    .page__inner-wrap {
+        max-width: 1600px !important;
+    }
+    /* 新闻列表容器 */
+    .news-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin: 2rem 0; /* 调整外边距 */
+    }
+    /* 单个新闻卡片的样式 */
+    .news-card {
+        display: flex;
+        flex-direction: column; 
+        gap: 1rem;
+        background: white;
+        border: 1px solid #e9e9e9;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .news-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+    .news-image {
+        width: 100%; 
+    }
+    .news-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        display: block;
+    }
+    .news-content .date {
+        font-size: 0.85em;
+        color: #888;
+        margin-bottom: 0.5rem;
+    }
+    .news-content h3 {
+        margin: 0 0 0.75rem 0;
+        font-size: 1.3em;
+        line-height: 1.3;
+    }
+    .news-content p {
+        margin: 0 0 1em 0;
+        color: #333;
+        line-height: 1.7;
+        text-align: justify;
+    }
+    .news-content p:last-of-type {
+        margin-bottom: 0;
+    }
+</style>
 
 <div class="news-list">
 
