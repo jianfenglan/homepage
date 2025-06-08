@@ -142,26 +142,6 @@ author_profile: true
 
     <div class="news-card">
         <div class="news-image">
-            <img src="{{ '/images/news/Hongyi.png' | relative_url }}">
-        </div>
-        <div class="news-content">
-            <p class="date">December 3, 2023 | CQU, Chongqing</p>
-            <h3>Hongyi Forum</h3>
-            <p>
-                What a great honor!
-            </p>
-            <p>
-                I was invited to share my research at Chongqing University, School of Journalism, where I received my B.A. degree.
-            </p>
-            <p>
-                Guess who also won the third-place award in this forum?
-            </p>
-        </div>
-    </div>
-
-
-    <div class="news-card">
-        <div class="news-image">
             <img src="{{ '/images/news/ICA2023.png' | relative_url }}">
         </div>
         <div class="news-content">
