@@ -7,36 +7,50 @@ author_profile: true
 <style>
     /* 新闻列表容器 */
     .news-list {
-        display: flex;
-        flex-direction: column;
-        gap: 2.5rem; /* 卡片之间的垂直间距 */
-        max-width: 800px; /* 限制最大宽度，提升阅读体验 */
-        margin: 2rem auto; /* 页面居中 */
+        display: grid; /* 使用grid布局更灵活 */
+        grid-template-columns: 1fr; /* 始终保持单列 */
+        gap: 2rem; /* 卡片之间的垂直间距 */
+        max-width: 800px;
+        margin: 2rem auto;
     }
-    /* 单个新闻卡片的样式 */
+
+    /* 【卡片化修改】
+      这是主要修改部分，我们借鉴了 Exploration 页面的卡片样式 
+    */
     .news-card {
         display: flex;
-        gap: 1.5rem; /* 图片和文字之间的间距 */
-        align-items: flex-start; /* 顶部对齐 */
-        border-bottom: 1px solid #eee;
-        padding-bottom: 2.5rem;
+        gap: 1.5rem;
+        align-items: center; /* 垂直居中对齐图片和文字，效果更好 */
+        
+        /* --- 卡片化样式 --- */
+        background: white; /* 为卡片设置白色背景 */
+        border: 1px solid #e9e9e9;
+        border-radius: 16px; /* 更圆润的边角 */
+        padding: 1.5rem; /* 在卡片内部增加留白 */
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    .news-list > .news-card:last-child {
-        border-bottom: none; /* 最后一张卡片不需要下边框 */
+
+    .news-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.12);
     }
+
     /* 图片容器样式 */
     .news-image {
-        flex: 0 0 120px; /* 固定图片容器宽度为120px */
+        flex: 0 0 180px; /* 图片宽度，你可以根据喜好调整 */
+        width: 180px;
     }
     .news-image img {
         width: 100%;
         height: auto;
-        border-radius: 8px; /* 图片圆角 */
+        border-radius: 8px;
         display: block;
     }
+
     /* 文字内容容器样式 */
     .news-content {
-        flex: 1; /* 占据剩余所有空间 */
+        flex: 1;
     }
     .news-content .date {
         font-size: 0.85em;
@@ -48,20 +62,27 @@ author_profile: true
         font-size: 1.3em;
         line-height: 1.3;
     }
+
+    /* 【两端对齐修改】 
+    */
     .news-content p {
-        margin: 0;
+        margin: 0 0 1em 0; /* 为段落之间增加下间距 */
         color: #333;
-        line-height: 1.6;
+        line-height: 1.7; /* 为两端对齐文本增加行高，提升可读性 */
+        text-align: justify; /* --- 实现两端对齐 --- */
+    }
+    .news-content p:last-of-type {
+        margin-bottom: 0; /* 移除最后一个段落的下间距 */
     }
 
-    /* 响应式设计：在小屏幕上（宽度小于600px） */
+    /* 响应式设计 */
     @media (max-width: 600px) {
         .news-card {
-            flex-direction: column; /* 将左右布局变为上下布局 */
+            flex-direction: column; /* 上下图文布局 */
+            padding: 1rem;
         }
         .news-image {
-            flex-basis: auto; /* 取消固定宽度 */
-            width: 100%; /* 图片容器宽度变为100% */
+            width: 100%;
             margin-bottom: 1rem;
         }
     }
@@ -69,7 +90,7 @@ author_profile: true
 
 <div class="news-list">
 
- <div class="news-card">
+    <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/Apple.png' | relative_url }}" alt="Training seminar at Apple">
         </div>
@@ -87,4 +108,5 @@ author_profile: true
             </p>
         </div>
     </div>
-    ```
+    
+    </div>
