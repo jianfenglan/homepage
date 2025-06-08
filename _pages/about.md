@@ -15,6 +15,7 @@ He currently serves as the Assitant Editor for journal Big Data & Society (SSCI,
 
 他现担任英文期刊Big Data & Society(SSCI, Q1)助理编辑，和英文期刊Emerging Media编辑助理。他也为英文期刊New Media & Society (SSCI, Q1),Psychology of Popular Media (SSCI, Q2)，以及ICA, NCA, AEJMC, IAMCR, ICIS, KACA等学术会议审稿人。他担任中华传播学会（NCA附属组织）学生委员主席(2024-2026)以及美国传播学协会传播与未来分会研究生代表(2024-2025)。
 
+
 Research Interests 研究兴趣
 ======
 In an era where human-computer interaction continually reshapes societal dynamics, understanding the intricate relationship between artificial intelligence (AI) and human social structures is paramount. My academic pursuits are deeply rooted in examining how AI and communication technologies influence and transform our social relationships, societal norms, and underlying philosophies. Built upon the Computers as Social Actors (CASA) paradigm, I proposed the Social Actors as Computer-like (SAAC) hypothesis, trying to explore the reciprocal influence between humans and AI systems, particularly focusing on Intimacy and Death in the digital age, which I would like to frame my research as Love, Death and Artificial Intelligence. 
