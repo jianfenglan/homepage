@@ -23,7 +23,8 @@ repository               : "jianfenglan.github.io/homepage"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Jeff Jianfeng Lan"
+  name             : "Jeff"
+  bio              : "Ph.D. Candidate"
   pronouns         : "He/Him/His"  
   location         : "Shanghai, China"
   employer         : "Shanghai Jiao Tong University"
