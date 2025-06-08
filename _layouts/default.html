@@ -18,10 +18,9 @@ layout: compress
 
     {{ content }}
 
-    <div class="page__footer">
+  <div class="page__footer">
       <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+        <div class="page__footer-copyright">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All Rights Reserved.</div>
       </footer>
     </div>
 
