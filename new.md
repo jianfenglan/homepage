@@ -69,25 +69,22 @@ author_profile: true
 
 <div class="news-list">
 
-    <div class="news-card">
+ <div class="news-card">
         <div class="news-image">
-            <img src="{{ '/images/news/ica-2025-logo.png' | relative_url }}" alt="ICA 2025 会议 Logo">
+            <img src="{{ '/images/news/Apple.png' | relative_url }}" alt="Training seminar at Apple">
         </div>
         <div class="news-content">
-            <p class="date">June 07, 2025</p>
-            <h3>Paper Accepted by ICA 2025</h3>
+            <p class="date">April 11, 2025 | Shanghai</p>
+            <h3>Meet Apple Friends</h3>
             <p>
-                Excited to share that our paper, "Love the way you are: examine the attribute of human-AI intimate relationships," has been accepted for presentation at the 75th ICA Annual Conference in Denver, U.S. See you there!
+                It was a great honor to deliver this engaging professional training seminar alongside my colleague Jaagi and my friend Masha for the advertising team at Apple.
+            </p>
+            <p>
+                We had a fruitful discussion on topics such as social identity, conflict management, and groupthink, and participated in a number of interactive activities that were both enjoyable and thought-provoking.
+            </p>
+            <p>
+                Engaging with professionals outside of academia also offered fresh perspectives and inspiring new insights.
             </p>
         </div>
     </div>
-    <div class="news-card">
-        <div class="news-content">
-            <p class="date">May 20, 2025</p>
-            <h3>New Role as Assistant Editor</h3>
-            <p>
-                Honored to start my new journey as an Assistant Editor for the journal <em>Big Data & Society</em> (SSCI, Q1). Looking forward to contributing to the academic community.
-            </p>
-        </div>
-    </div>
-    </div>
+    ```
