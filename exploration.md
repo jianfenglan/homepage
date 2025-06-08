@@ -77,4 +77,54 @@ author_profile: true
             <p>8 March, 2025</p>
         </div>
     </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Kyoto.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Kyoto</h3>
+            <p>7 March, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Kobe.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Kobe</h3>
+            <p>6 March, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Jeju.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Jeju Island</h3>
+            <p>23 February, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Macau.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Macau</h3>
+            <p>31 January, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Guiyang.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Guiyang</h3>
+            <p>17 January, 2025</p>
+        </div>
+    </div>
+
+     <div class="gallery-card">
+        <img src="{{ '/images/Beijing.png' | relative_url }}">
+        <div class="gallery-caption">
+            <h3>Beijing</h3>
+            <p>5 January, 2025</p>
+        </div>
+    </div>
+
+    
 </div>
