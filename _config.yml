@@ -13,8 +13,8 @@ title                    : "Jeff Jianfeng Lan ｜ 蓝剑锋"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : "https://jianfenglan.github.io"
-baseurl                  : "/homepage"
+url                      : "https://jianfenglan.com"
+baseurl                  : ""
 repository               : "jianfenglan.github.io/homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
