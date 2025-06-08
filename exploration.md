@@ -50,7 +50,7 @@ author_profile: true
     <div class="gallery-card">
         <img src="{{ '/images/Wakayama.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>Wakayama·Japan</h3>
+            <h3>Wakayama</h3>
             <p>11 March, 2025</p>
         </div>
     </div>
@@ -58,24 +58,24 @@ author_profile: true
     <div class="gallery-card">
         <img src="{{ '/images/Osaka.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>Osaka·Japan</h3>
+            <h3>Osaka</h3>
             <p>10 March, 2025</p>
         </div>
     </div>
 
     <div class="gallery-card">
-        <img src="{{ '/images/你的照片名3.jpg' | relative_url }}" alt="日本·京都清水寺">
+        <img src="{{ '/images/Uji.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>日本 · 京都</h3>
-            <p>秋日的清水寺，红枫如火。</p>
+            <h3>Uji</h3>
+            <p>9 March, 2025</p>
         </div>
     </div>
 
     <div class="gallery-card">
-        <img src="{{ '/images/你的照片名4.jpg' | relative_url }}" alt="冰岛·极光">
+        <img src="{{ '/images/Nara.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>冰岛 · 雷克雅未克</h3>
-            <p>追逐欧若拉的夜晚，终生难忘。</p>
+            <h3>Nara</h3>
+            <p>8 March, 2025</p>
         </div>
     </div>
 </div>
