@@ -59,7 +59,7 @@ author_profile: true
 
     <div class="publication-card">
         <div class="publication-content">
-            Mou, Y.\*, <strong>Lan, J.</strong>\*, & Huang, Y. (2023). Good night versus goodbye? comparing the mourning Remarks of virtual and human uploaders through a data-mining approach. <em>New Media & Society</em>, Online first. (*co-first author)
+            Mou, Y., <strong>Lan, J.</strong>, & Huang, Y. (2023). Good night versus goodbye? comparing the mourning Remarks of virtual and human uploaders through a data-mining approach. <em>New Media & Society</em>, Online first. (*co-first author)
         </div>
     </div>
 
