@@ -65,26 +65,6 @@ author_profile: true
 
     <div class="news-card">
         <div class="news-image">
-            <img src="{{ '/images/news/Apple.png' | relative_url }}" >
-        </div>
-        <div class="news-content">
-            <p class="date">April 11, 2025 | Shanghai</p>
-            <h3>Meet Apple Friends</h3>
-            <p>
-                It was a great honor to deliver this engaging professional training seminar alongside my colleague Jaagi and my friend Masha for the advertising team at Apple.
-            </p>
-            <p>
-                We had a fruitful discussion on topics such as social identity, conflict management, and groupthink, and participated in a number of interactive activities that were both enjoyable and thought-provoking.
-            </p>
-            <p>
-                Engaging with professionals outside of academia also offered fresh perspectives and inspiring new insights.
-            </p>
-        </div>
-    </div>
-
-
-    <div class="news-card">
-        <div class="news-image">
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
         </div>
         <div class="news-content">
