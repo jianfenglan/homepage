@@ -50,15 +50,15 @@ author_profile: true
     <div class="gallery-card">
         <img src="{{ '/images/Wakayama.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>Wakayama</h3>
+            <h3>Wakayama·Japan</h3>
             <p>11 March, 2025</p>
         </div>
     </div>
 
     <div class="gallery-card">
-        <img src="{{ '/images/Osaka.png' | relative_url }}" >
+        <img src="{{ '/images/Osaka.png' | relative_url }}">
         <div class="gallery-caption">
-            <h3>Osaka</h3>
+            <h3>Osaka·Japan</h3>
             <p>10 March, 2025</p>
         </div>
     </div>
