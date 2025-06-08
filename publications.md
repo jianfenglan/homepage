@@ -4,55 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<style>
-    /* 出版物列表的容器 */
-    .publication-list {
-        display: grid; /* 使用grid布局，方便控制间距 */
-        grid-template-columns: 1fr; /* 始终为单列 */
-        gap: 1rem; /* 卡片之间的间距 */
-        counter-reset: pub-counter; /* 【核心】初始化一个名为 "pub-counter" 的计数器 */
-        margin-top: 1rem; /* 标题和列表间的距离 */
-    }
 
-    /* 单个出版物卡片的样式 */
-    .publication-card {
-        display: flex; /* 使用flex布局，为了将序号和文字内容分开 */
-        align-items: flex-start; /* 顶部对齐 */
-        gap: 1em; /* 序号和文字之间的间距 */
-        
-        /* --- 卡片化样式 --- */
-        background: white;
-        border: 1px solid #e9e9e9;
-        border-radius: 12px;
-        padding: 1.25rem 1.5rem;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        line-height: 1.6; /* 增加行高，提升可读性 */
-    }
-
-    .publication-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-    }
-    
-    /* 【核心】使用 ::before 伪元素来生成和显示自动序号 */
-    .publication-card::before {
-        counter-increment: pub-counter; /* 让计数器+1 */
-        content: counter(pub-counter) "."; /* 显示计数器的值，并在后面加个点 */
-        
-        /* 序号的样式 */
-        font-weight: 600;
-        font-size: 1.1em;
-        color: #888;
-        min-width: 2em; /* 给序号留出固定空间，让排版更整齐 */
-        text-align: right;
-    }
-    
-    /* 包裹主要文字内容的容器 */
-    .publication-content {
-        flex: 1;
-    }
-</style>
 
 <h3>Journal Articles｜期刊论文</h3>
 <div class="publication-list">
