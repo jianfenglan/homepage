@@ -45,7 +45,7 @@ author_profile: true
     <div class="gallery-card">
         <img src="/images/Wakayama.png">
         <div class="gallery-caption">
-            <h3>和</h3>
+            <h3>Wakayama</h3>
             <p>11 March, 2025</p>
         </div>
     </div>
