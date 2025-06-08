@@ -78,7 +78,7 @@ author_profile: true
 
     <div class="news-card">
         <div class="news-image">
-            <img src="{{ '/images/news/Apple.png' | relative_url }}" alt="Training seminar at Apple">
+            <img src="{{ '/images/news/Apple.png' | relative_url }}" >
         </div>
         <div class="news-content">
             <p class="date">April 11, 2025 | Shanghai</p>
@@ -94,5 +94,31 @@ author_profile: true
             </p>
         </div>
     </div>
+
+
+    <div class="news-card">
+        <div class="news-image">
+            <img src="{{ '/images/news/NCA.png' | relative_url }}">
+        </div>
+        <div class="news-content">
+            <p class="date">November 22, 2024 | New Orleans</p>
+            <h3>NCA 2024</h3>
+            <p>
+                My journey at NCA begins with magic! I'm thrilled to have so many friends by my side.
+            </p>
+            <p>
+                I would especially like to thank Dr. Patrick, and Dr. Dongjing for including me at The Tenth Annual U.S.-China Communication Scholars Summit and for providing the opportunity to share my latest work.
+            </p>
+            <p>
+                This year, I'm honored to serve as the Student Committee Chair for ACCS and as the Graduate Student Representative for CATF division in NCA. Feel free to reach out with any suggestions or for more information.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    
     
     </div>
