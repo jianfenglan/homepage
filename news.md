@@ -12,17 +12,15 @@ author_profile: true
     .news-list {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 2.5rem; /* 适当增大了卡片间距 */
         margin: 2rem 0;
     }
     /* 单个新闻卡片的样式 */
     .news-card {
         display: flex;
         flex-direction: row; 
-        /* --- 改动1: 改为垂直居中对齐，视觉效果更平衡 --- */
         align-items: center; 
-        gap: 2rem; /* 可以适当增大图片和文字的间距 */
-
+        gap: 2rem;
         background: white;
         border: 1px solid #e9e9e9;
         border-radius: 16px;
@@ -49,13 +47,22 @@ author_profile: true
     .news-content {
         flex: 1;
     }
-    /* --- 改动2: 为日期和地点创建新的、更通用的样式规则 --- */
-    .news-card .date {
+    
+    /* --- 这里是关键改动 --- */
+    /* 为日期和地点信息创建一个专门的容器样式 */
+    .news-meta {
+        margin-top: 0.75rem; /* 与图片保持间距 */
+        text-align: center;
+        line-height: 1.5; /* 调整行高 */
+    }
+    /* 单独的日期/地点行样式 */
+    .news-meta p {
+        margin: 0;
         font-size: 0.85em;
         color: #888;
-        margin-top: 0.75rem; /* 为它和图片之间增加上边距 */
-        text-align: center; /* 居中显示 */
     }
+    /* --- 改动结束 --- */
+
     .news-content h3 {
         margin: 0 0 0.75rem 0;
         font-size: 1.3em;
@@ -75,22 +82,23 @@ author_profile: true
     @media (max-width: 768px) {
         .news-card {
             flex-direction: column;
-            align-items: stretch; /* 在手机上恢复默认对齐 */
+            align-items: stretch;
         }
         .news-image {
             width: 100%;
-            margin-bottom: 0; /* 在新布局下不再需要这个了 */
         }
     }
 </style>
-
 
 <div class="news-list">
 
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
-            <p class="date">📅 November 22, 2024 | 📍 New Orleans</p>
+            <div class="news-meta">
+                <p>📅 November 22, 2024</p>
+                <p>📍 New Orleans</p>
+            </div>
         </div>
         <div class="news-content">
             <h3>NCA 2024</h3>
@@ -109,7 +117,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
-            <p class="date">📅 June 23, 2024 | 📍 Gold Coast</p>
+            <div class="news-meta">
+                <p>📅 June 23, 2024</p>
+                <p>📍 Gold Coast</p>
+            </div>
         </div>
         <div class="news-content">
             <h3>ICA 2024</h3>
@@ -128,7 +139,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/SICSS.png' | relative_url }}">
-            <p class="date">📅 June 7, 2024 | 📍 NUS, Singapore</p>
+            <div class="news-meta">
+                <p>📅 June 7, 2024</p>
+                <p>📍 NUS, Singapore</p>
+            </div>
         </div>
         <div class="news-content">
             <h3>SICSS-Singapore</h3>
@@ -144,7 +158,10 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2023.png' | relative_url }}">
-            <p class="date">📅 May 25, 2023 | 📍 Toronto</p>
+            <div class="news-meta">
+                <p>📅 May 25, 2023</p>
+                <p>📍 Toronto</p>
+            </div>
         </div>
         <div class="news-content">
             <h3>ICA 2023</h3>
