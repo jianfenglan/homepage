@@ -4,10 +4,7 @@ permalink: /news/
 author_profile: true
 ---
 <style>
-    /* 强制拓宽本页面的主内容区域 */
-    .page__inner-wrap {
-        max-width: 1600px !important;
-    }
+ 
     /* 新闻列表容器 */
     .news-list {
         display: grid;
