@@ -24,7 +24,7 @@ redirect_from:
     /* 鼠标悬浮在链接上时的样式 */
     .page__content a:hover {
       color: #002FA7; /* 鼠标悬浮时变为克莱因蓝 */
-      border-bottom-color: #0056b3; 
+      text-decoration: none; /* 移除默认的下划线 */
     }
 </style>
 
@@ -32,7 +32,7 @@ Jeff is a Ph.D. candidate (combined with Master program) at the School of Media 
 
 He currently serves as the Assistant Editor ✍️ for the journal *Big Data & Society* (SSCI, Q1), and the Editorial Assistant for the journal *Emerging Media*. He also serves as a peer reviewer for journals like *New Media & Society* (SSCI, Q1) and *Psychology of Popular Media* (SSCI, Q2), and for conferences like ICA, NCA, AEJMC, IAMCR, ICIS, KACA, et al. He is the Student Committee Chair (2024-2026) for the Association for Chinese Communication Studies (ACCS, affiliated by NCA), and the Graduate Student Representative (2024-2025) for the Communication and the Future Division at the National Communication Association.
 
-蓝剑锋现为上海交通大学媒体与传播学院 🎓 博士候选人（硕博连读），导师为[**牟怡教授**]([这里替换成牟怡教授的网址](https://cfmhmc.github.io/yimou.github.io/)。他的研究兴趣集中在人与AI交互 🤖 对个体亲密观和死亡观的影响。<span class="my-name">蓝剑锋</span>曾于重庆大学新闻学院取得新闻学学士学位，导师为[**蒲俊杰教授**](https://sj.cqu.edu.cn/info/1138/5612.htm)。
+蓝剑锋现为上海交通大学媒体与传播学院 🎓 博士候选人（硕博连读），导师为[**牟怡教授**](https://cfmhmc.github.io/yimou.github.io/)。他的研究兴趣集中在人与AI交互 🤖 对个体亲密观和死亡观的影响。<span class="my-name">蓝剑锋</span>曾于重庆大学新闻学院取得新闻学学士学位，导师为[**蒲俊杰教授**](https://sj.cqu.edu.cn/info/1138/5612.htm)。
 
 他现担任英文期刊 *Big Data & Society* (SSCI, Q1) 助理编辑 ✍️，和英文期刊 *Emerging Media* 编辑助理。他也担任英文期刊 *New Media & Society* (SSCI, Q1), *Psychology of Popular Media* (SSCI, Q2)，以及 ICA, NCA, AEJMC, IAMCR, ICIS, KACA 等学术会议审稿人。他同时担任中华传播学会（NCA 附属组织）学生委员主席 (2024-2026) 以及美国传播学协会“传播与未来”分会研究生代表 (2024-2025)。
 
