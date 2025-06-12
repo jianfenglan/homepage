@@ -17,11 +17,11 @@ author_profile: true
     }
     /* 单个新闻卡片的样式 */
     .news-card {
-        /* --- 改动 1: 恢复为左右布局 --- */
         display: flex;
         flex-direction: row; 
-        align-items: flex-start; /* 顶部对齐 */
-        gap: 1.5rem; /* 图片和文字的间距 */
+        /* --- 改动1: 改为垂直居中对齐，视觉效果更平衡 --- */
+        align-items: center; 
+        gap: 2rem; /* 可以适当增大图片和文字的间距 */
 
         background: white;
         border: 1px solid #e9e9e9;
@@ -36,17 +36,12 @@ author_profile: true
     }
     /* 图片容器样式 */
     .news-image {
-        /* --- 改动 2: 设置图片区域占卡片宽度的35% --- */
         flex: 0 0 35%; 
         width: 35%;
     }
     .news-image img {
         width: 100%;
-        /* --- 改动 3: 确保图片等比缩放，不裁剪 --- */
         height: auto;
-        max-height: none;
-        object-fit: contain; /* 或者直接移除 object-fit */
-        
         border-radius: 8px;
         display: block;
     }
@@ -54,10 +49,12 @@ author_profile: true
     .news-content {
         flex: 1;
     }
-    .news-content .date {
+    /* --- 改动2: 为日期和地点创建新的、更通用的样式规则 --- */
+    .news-card .date {
         font-size: 0.85em;
         color: #888;
-        margin-bottom: 0.5rem;
+        margin-top: 0.75rem; /* 为它和图片之间增加上边距 */
+        text-align: center; /* 居中显示 */
     }
     .news-content h3 {
         margin: 0 0 0.75rem 0;
@@ -74,25 +71,28 @@ author_profile: true
         margin-bottom: 0;
     }
 
-    /* 响应式设计：在小屏幕上自动变为上下布局 */
+    /* 响应式设计 */
     @media (max-width: 768px) {
         .news-card {
             flex-direction: column;
+            align-items: stretch; /* 在手机上恢复默认对齐 */
         }
         .news-image {
             width: 100%;
-            margin-bottom: 1rem;
+            margin-bottom: 0; /* 在新布局下不再需要这个了 */
         }
     }
 </style>
+
+
 <div class="news-list">
 
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
+            <p class="date">📅 November 22, 2024 | 📍 New Orleans</p>
         </div>
         <div class="news-content">
-            <p class="date">November 22, 2024 | New Orleans</p>
             <h3>NCA 2024</h3>
             <p>
                 My journey at NCA begins with magic! I'm thrilled to have so many friends by my side.
@@ -109,9 +109,9 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
+            <p class="date">📅 June 23, 2024 | 📍 Gold Coast</p>
         </div>
         <div class="news-content">
-            <p class="date">June 23, 2024 | Gold Coast</p>
             <h3>ICA 2024</h3>
             <p>
                 I thoroughly enjoyed my time in Australia. Cozy was the word I used most frequently during my stay.
@@ -128,9 +128,9 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/SICSS.png' | relative_url }}">
+            <p class="date">📅 June 7, 2024 | 📍 NUS, Singapore</p>
         </div>
         <div class="news-content">
-            <p class="date">June 7, 2024 | NUS, Singapore</p>
             <h3>SICSS-Singapore</h3>
             <p>
                 This summer, I'm really honored to attend SICSS-Singapore at beautiful National University of Singapore. Five days' talks and discussions were beyond insightful and full of joy. Special thanks to Han Li, Rongxin, Anita, Jinyuan, Xuejiao and Renwen for their uncompromising care and careful organization.
@@ -144,9 +144,9 @@ author_profile: true
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2023.png' | relative_url }}">
+            <p class="date">📅 May 25, 2023 | 📍 Toronto</p>
         </div>
         <div class="news-content">
-            <p class="date">May 25, 2023 | Toronto</p>
             <h3>ICA 2023</h3>
             <p>
                 This is my inaugural experience of attending ICA!
