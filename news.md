@@ -37,6 +37,10 @@ author_profile: true
     .news-image img {
         width: 100%;
         height: auto;
+        /* --- 这里是关键改动 --- */
+        max-height: 400px; /* 为图片设置一个最大高度 */
+        object-fit: cover;   /* 确保图片在容器内不变形，而是被优雅地裁剪 */
+        /* --- 改动结束 --- */
         border-radius: 8px;
         display: block;
     }
@@ -82,7 +86,6 @@ author_profile: true
         </div>
     </div>
 
-
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
@@ -102,7 +105,6 @@ author_profile: true
         </div>
     </div>
 
-
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/SICSS.png' | relative_url }}">
@@ -118,7 +120,6 @@ author_profile: true
             </p>
         </div>
     </div>
-
 
     <div class="news-card">
         <div class="news-image">
@@ -136,7 +137,4 @@ author_profile: true
         </div>
     </div>
 
-
-    
-    
-    </div>
+</div>
