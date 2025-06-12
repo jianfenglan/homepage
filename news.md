@@ -13,13 +13,16 @@ author_profile: true
         display: grid;
         grid-template-columns: 1fr;
         gap: 2rem;
-        margin: 2rem 0; /* 调整外边距 */
+        margin: 2rem 0;
     }
     /* 单个新闻卡片的样式 */
     .news-card {
+        /* --- 改动 1: 恢复为左右布局 --- */
         display: flex;
-        flex-direction: column; 
-        gap: 1rem;
+        flex-direction: row; 
+        align-items: flex-start; /* 顶部对齐 */
+        gap: 1.5rem; /* 图片和文字的间距 */
+
         background: white;
         border: 1px solid #e9e9e9;
         border-radius: 16px;
@@ -31,18 +34,25 @@ author_profile: true
         transform: translateY(-5px);
         box-shadow: 0 8px 20px rgba(0,0,0,0.12);
     }
+    /* 图片容器样式 */
     .news-image {
-        width: 100%; 
+        /* --- 改动 2: 设置图片区域占卡片宽度的35% --- */
+        flex: 0 0 35%; 
+        width: 35%;
     }
     .news-image img {
         width: 100%;
+        /* --- 改动 3: 确保图片等比缩放，不裁剪 --- */
         height: auto;
-        /* --- 这里是关键改动 --- */
-        max-height: 400px; /* 为图片设置一个最大高度 */
-        object-fit: cover;   /* 确保图片在容器内不变形，而是被优雅地裁剪 */
-        /* --- 改动结束 --- */
+        max-height: none;
+        object-fit: contain; /* 或者直接移除 object-fit */
+        
         border-radius: 8px;
         display: block;
+    }
+    /* 文字内容容器样式 */
+    .news-content {
+        flex: 1;
     }
     .news-content .date {
         font-size: 0.85em;
@@ -63,8 +73,18 @@ author_profile: true
     .news-content p:last-of-type {
         margin-bottom: 0;
     }
-</style>
 
+    /* 响应式设计：在小屏幕上自动变为上下布局 */
+    @media (max-width: 768px) {
+        .news-card {
+            flex-direction: column;
+        }
+        .news-image {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+</style>
 <div class="news-list">
 
     <div class="news-card">
