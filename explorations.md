@@ -6,10 +6,7 @@ author_profile: true
 
 <style>
     /* 强制拓宽本页面的主内容区域 */
-    .page__inner-wrap {
-        max-width: 1600px !important;
-    }
-    
+
     .gallery-grid {
         display: grid;
         /* --- 改动 1: 设置为单列布局 --- */
