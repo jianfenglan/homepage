@@ -12,7 +12,7 @@ author_profile: true
     .news-list {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 2.5rem; /* 适当增大了卡片间距 */
+        gap: 2.5rem;
         margin: 2rem 0;
     }
     /* 单个新闻卡片的样式 */
@@ -48,24 +48,22 @@ author_profile: true
         flex: 1;
     }
     
-    /* --- 这里是关键改动 --- */
-    /* 为日期和地点信息创建一个专门的容器样式 */
     .news-meta {
-        margin-top: 0.75rem; /* 与图片保持间距 */
+        margin-top: 0.75rem;
         text-align: center;
-        line-height: 1.5; /* 调整行高 */
+        /* --- 改动3: 增大行高，增加日期和地点的间距 --- */
+        line-height: 1.8; 
     }
-    /* 单独的日期/地点行样式 */
     .news-meta p {
         margin: 0;
         font-size: 0.85em;
         color: #888;
     }
-    /* --- 改动结束 --- */
 
     .news-content h3 {
         margin: 0 0 0.75rem 0;
-        font-size: 1.3em;
+        /* --- 改动1: 标题字号改小 --- */
+        font-size: 1.2em; 
         line-height: 1.3;
     }
     .news-content p {
@@ -73,6 +71,8 @@ author_profile: true
         color: #333;
         line-height: 1.7;
         text-align: justify;
+        /* --- 改动2: 正文字号改小 --- */
+        font-size: 0.95em;
     }
     .news-content p:last-of-type {
         margin-bottom: 0;
