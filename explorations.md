@@ -59,7 +59,7 @@ author_profile: true
         <img src="{{ '/images/Osaka.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Osaka</h3>
-            <p>📅 10 March, 2025</p>
+            <p>10 March, 2025</p>
         </div>
     </div>
 
@@ -67,7 +67,7 @@ author_profile: true
         <img src="{{ '/images/Kyoto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Kyoto</h3>
-            <p>📅 7 March, 2025</p>
+            <p>7 March, 2025</p>
         </div>
     </div>
 
@@ -76,7 +76,7 @@ author_profile: true
         <img src="{{ '/images/Jeju.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Jeju Island</h3>
-            <p>📅 23 February, 2025</p>
+            <p>23 February, 2025</p>
         </div>
     </div>
 
@@ -84,7 +84,7 @@ author_profile: true
         <img src="{{ '/images/Macau.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Macau</h3>
-            <p>📅 31 January, 2025</p>
+            <p>31 January, 2025</p>
         </div>
     </div>
 
@@ -100,7 +100,7 @@ author_profile: true
         <img src="{{ '/images/Huangshan.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Huangshan</h3>
-            <p>📅 23 July, 2024</p>
+            <p>23 July, 2024</p>
         </div>
     </div>
 
@@ -108,7 +108,7 @@ author_profile: true
         <img src="{{ '/images/Sydney.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Sydney</h3>
-            <p>📅 29 June, 2024</p>
+            <p>29 June, 2024</p>
         </div>
     </div>
 
@@ -116,7 +116,7 @@ author_profile: true
         <img src="{{ '/images/Goldcoast.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Gold Coast</h3>
-            <p>📅 20 June, 2024</p>
+            <p>20 June, 2024</p>
         </div>
     </div>
 
@@ -124,7 +124,7 @@ author_profile: true
         <img src="{{ '/images/Singapore.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Singapore</h3>
-            <p>📅 4 June, 2024</p>
+            <p>4 June, 2024</p>
         </div>
     </div>
 
@@ -132,7 +132,7 @@ author_profile: true
         <img src="{{ '/images/Busan.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Busan</h3>
-            <p>📅 4 April, 2024</p>
+            <p>4 April, 2024</p>
         </div>
     </div>
 
@@ -140,7 +140,7 @@ author_profile: true
         <img src="{{ '/images/Seoul.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Seoul</h3>
-            <p>📅 1 April, 2024</p>
+            <p>1 April, 2024</p>
         </div>
     </div>
 
@@ -148,7 +148,7 @@ author_profile: true
         <img src="{{ '/images/HK.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Hong Kong</h3>
-            <p>📅 14 February, 2024</p>
+            <p>14 February, 2024</p>
         </div>
     </div>
 
@@ -156,7 +156,7 @@ author_profile: true
         <img src="{{ '/images/Baisha.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Baisha Lake</h3>
-            <p>📅 12 July, 2023</p>
+            <p>12 July, 2023</p>
         </div>
     </div>
 
@@ -164,7 +164,7 @@ author_profile: true
         <img src="{{ '/images/Kashgar.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Kashgar</h3>
-            <p>📅 9 July, 2023</p>
+            <p>9 July, 2023</p>
         </div>
     </div>
 
@@ -172,7 +172,7 @@ author_profile: true
         <img src="{{ '/images/Niagara.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Niagara Fall</h3>
-            <p>📅 28 May, 2023</p>
+            <p>28 May, 2023</p>
         </div>
     </div>
 
@@ -180,7 +180,7 @@ author_profile: true
         <img src="{{ '/images/Toronto.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Toronto</h3>
-            <p>📅 25 May, 2023</p>
+            <p>25 May, 2023</p>
         </div>
     </div>
 
@@ -188,7 +188,7 @@ author_profile: true
         <img src="{{ '/images/Hangzhou.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Hangzhou</h3>
-            <p>📅 23 January, 2023</p>
+            <p>23 January, 2023</p>
         </div>
     </div>
 
@@ -196,7 +196,7 @@ author_profile: true
         <img src="{{ '/images/Sanya.png' | relative_url }}">
         <div class="gallery-caption">
             <h3>📍 Sanya</h3>
-            <p>📅 9 July, 2022</p>
+            <p>9 July, 2022</p>
         </div>
     </div>
     
