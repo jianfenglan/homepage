@@ -53,8 +53,8 @@ author_profile: true
 
 <h3>Journal Articles｜期刊论文</h3>
 <div class="publication-list">
-    <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2023). Good night versus goodbye? comparing the mourning Remarks of virtual and human uploaders through a data-mining approach. <em>New Media & Society</em>, Online first. (*co-first author)</div></div>
     <div class="publication-card"><div class="publication-content">牟怡, <span class="my-name">蓝剑锋</span>. (2023). 机器写作中的性别刻板印象:基于实验研究的实然探讨. <em>中国网络传播研究</em>, (1)1:236-266.</div></div>
+      <div class="publication-card"><div class="publication-content">Mou, Y., <span class="my-name">Lan, J.</span>, & Huang, Y. (2025). Good night versus goodbye? comparing the mourning Remarks of virtual and human uploaders through a data-mining approach. <em>New Media & Society, 27(5),</em> 2684-2702. (*co-first author)</div></div>
     <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self- presentation in Human–AI Relationships. <em>Emerging Media</em>, Online first.</div></div>
 </div>
 
