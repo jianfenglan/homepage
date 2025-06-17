@@ -89,6 +89,25 @@ author_profile: true
 
 <div class="news-list">
 
+ <div class="news-card">
+        <div class="news-image">
+            <img src="{{ '/images/news/ICA2025.jpg' | relative_url }}">
+            <div class="news-meta">
+                <p>📅 June 15, 2025</p>
+                <p>📍 Denver</p>
+            </div>
+        </div>
+        <div class="news-content">
+            <h3>ICA 2025</h3>
+            <p>
+               I was truly disappointed to have missed this year's ICA conference in Denver. Fortunately, my dear friend and colleague, Kelsie, was there to present our latest work. I wanted to share this wonderful photo of her and express my immense gratitude for her support.
+            </p>
+            <p>
+               Over time, I've come to realize that the value of academic conferences extends far beyond presenting research. I couldn't agree more with Kelsie that having a few deep conversations with friends you only meet annually is far more meaningful than adding fifty new contacts to your phone.
+            </p>
+        </div>
+    </div>
+
     <div class="news-card">
         <div class="news-image">
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
@@ -170,5 +189,6 @@ author_profile: true
             </p>
         </div>
     </div>
+
 
 </div>
