@@ -208,7 +208,7 @@ author_profile: true
          <div class="gallery-card">
         <img src="{{ '/images/Bangkok.JPG' | relative_url }}">
         <div class="gallery-caption">
-            <h3>📍 Bangkok 🇨🇳</h3>
+            <h3>📍 Bangkok 🇹🇭</h3>
             <p>21 July, 2017</p>
         </div>
     </div>
