@@ -94,7 +94,7 @@ author_profile: true
             <img src="{{ '/images/news/ICA2025.jpg' | relative_url }}">
             <div class="news-meta">
                 <p>📅 June 15, 2025</p>
-                <p>📍 Denver</p>
+                <p>📍 Denver 🇺🇸</p>
             </div>
         </div>
         <div class="news-content">
@@ -113,7 +113,7 @@ author_profile: true
             <img src="{{ '/images/news/NCA.png' | relative_url }}">
             <div class="news-meta">
                 <p>📅 November 22, 2024</p>
-                <p>📍 New Orleans</p>
+                <p>📍 New Orleans 🇺🇸</p>
             </div>
         </div>
         <div class="news-content">
@@ -135,7 +135,7 @@ author_profile: true
             <img src="{{ '/images/news/ICA2024.png' | relative_url }}">
             <div class="news-meta">
                 <p>📅 June 23, 2024</p>
-                <p>📍 Gold Coast</p>
+                <p>📍 Gold Coast 🇦🇺</p>
             </div>
         </div>
         <div class="news-content">
@@ -157,7 +157,7 @@ author_profile: true
             <img src="{{ '/images/news/SICSS.png' | relative_url }}">
             <div class="news-meta">
                 <p>📅 June 7, 2024</p>
-                <p>📍 NUS, Singapore</p>
+                <p>📍 NUS, Singapore 🇸🇬</p>
             </div>
         </div>
         <div class="news-content">
@@ -176,7 +176,7 @@ author_profile: true
             <img src="{{ '/images/news/ICA2023.png' | relative_url }}">
             <div class="news-meta">
                 <p>📅 May 25, 2023</p>
-                <p>📍 Toronto</p>
+                <p>📍 Toronto 🇨🇦</p>
             </div>
         </div>
         <div class="news-content">
