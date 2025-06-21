@@ -1,5 +1,5 @@
 ---
-title: "Exploration: on the road"
+title: ""
 permalink: /explorations/
 author_profile: true
 ---
