@@ -28,13 +28,13 @@ redirect_from:
     }
 </style>
 
-Jeff is a Ph.D. candidate (combined with Master program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). His research interests focus on the impact of human-AI interaction (HAII) individual perceptions of intimacy and mortality. Before joining SJTU, he received his B.A. in Journalism from the School of Journalism, Chongqing University, advised by [**Prof. Junjie Pu**](https://sj.cqu.edu.cn/info/1138/5612.htm).
+Jeff is a Ph.D. candidate (combined with Master program) at the [School of Media and Communication](https://smc.sjtu.edu.cn), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn), advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). His research interests focus on the impact of human-AI interaction (HAII) individual perceptions of intimacy and mortality. Before joining SJTU, he received his B.A. in Journalism from the [School of Journalism](https://sj.cqu.edu.cn), [Chongqing University](https://www.cqu.edu.cn), advised by [**Prof. Junjie Pu**](https://sj.cqu.edu.cn/info/1138/5612.htm).
 
 He currently serves as the Assistant Editor ✍️ for the journal *Big Data & Society*. He also serves as a peer reviewer for journals like *New Media & Society* and *Psychology of Popular Media*, and for conferences like ICA, NCA, AEJMC, IAMCR, ICIS, KACA, et al. He is the Student Committee Chair (2024-2026) for the Association for Chinese Communication Studies (ACCS, affiliated by NCA), and the Graduate Student Representative (2024-2025) for the Communication and the Future Division at the National Communication Association.
 
-蓝剑锋现为上海交通大学媒体与传播学院博士候选人（硕博连读），导师为[**牟怡教授**](https://cfmhmc.github.io/yimou.github.io/)。他的研究兴趣集中在人与AI交互对个体亲密观和死亡观的影响。<span class="my-name">蓝剑锋</span>曾于重庆大学新闻学院取得新闻学学士学位，导师为[**蒲俊杰教授**](https://sj.cqu.edu.cn/info/1138/5612.htm)。
+蓝剑锋现为[上海交通大学](https://www.sjtu.edu.cn)[媒体与传播学院](https://smc.sjtu.edu.cn)博士候选人（硕博连读），导师为[**牟怡教授**](https://cfmhmc.github.io/yimou.github.io/)。他的研究兴趣集中在人与AI交互对个体亲密观和死亡观的影响。<span class="my-name">蓝剑锋</span>曾于[重庆大学](https://www.cqu.edu.cn)[新闻学院](https://sj.cqu.edu.cn)取得新闻学学士学位，导师为[**蒲俊杰教授**](https://sj.cqu.edu.cn/info/1138/5612.htm)。
 
-他现担任英文期刊 *《大数据与社会》（Big Data & Society）* 助理编辑 ✍️。他也担任英文期刊 *《新媒体与社会》（New Media & Society）*, *《流行媒体心理学》（Psychology of Popular Media）*，以及国际传播学会（ICA）, 美国传播学协会（NCA）, 新闻与大众传播教育协会（AEJMC）, 国际媒介与传播研究协会（IAMCR）, 信息系统国际会议（ICIS）, 韩-美传播学协会（KACA） 等学术会议审稿人。他同时担任中华传播学会（NCA 附属组织）学生委员主席 (2024-2026) 以及美国传播学协会“传播与未来”分会研究生代表 (2024-2025)。
+他现担任英文期刊 *《大数据与社会》（Big Data & Society）* 助理编辑 ✍️。他也担任英文期刊 *《新媒体与社会》（New Media & Society）*, *《大众媒介心理学》（Psychology of Popular Media）*，以及国际传播学会（ICA）, 美国传播学协会（NCA）, 新闻与大众传播教育协会（AEJMC）, 国际媒介与传播研究协会（IAMCR）, 信息系统国际会议（ICIS）, 韩-美传播学协会（KACA） 等学术会议审稿人。他同时担任中华传播学会（NCA 附属组织）学生委员主席 (2024-2026) 以及美国传播学协会“传播与未来”分会研究生代表 (2024-2025)。
 
 
 
