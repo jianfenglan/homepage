@@ -1,5 +1,5 @@
 ---
-title: "Publications: on the record"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -51,7 +51,7 @@ author_profile: true
     }
 </style>
 
-<h3>Journal Articles｜期刊论文</h3>
+<h2>Journal Articles｜期刊论文</h2>
 <div class="publication-list">
    
      <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Performing Intimacy: Curating the Self- presentation in Human–AI Relationships. <em>Emerging Media</em>, Online first.</div></div>  
@@ -62,7 +62,7 @@ author_profile: true
 
 <hr />
 
-<h3>Conference Papers｜会议论文</h3>
+<h2>Conference Papers｜会议论文</h2>
 <div class="publication-list">
    <div class="publication-card"><div class="publication-content">Huang, Y., <span class="my-name">Lan, J.</span> (2025). Media Metaphors and Social Meaning of ‘Internet’ in Taiwan (1995-2023). <em>AEJMC 2025</em>, San Francisco, U.S. [Second Runner Up Student Paper Award]</div></div>
     <div class="publication-card"><div class="publication-content"><span class="my-name">Lan, J.</span>, Huang, Y. (2025). Reconfiguring Sociality: Human-AI Intimacy, Narcissistic Dynamics, and Replika. <em>Society for Social Studies of Science (4S) 2025</em>, Seattle, U.S.</div></div>
