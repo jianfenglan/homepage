@@ -27,11 +27,12 @@ redirect_from:
       text-decoration: none; /* 移除默认的下划线 */
     }
 </style>
-
+<p>&nbsp;</p>
 Hey, thanks for visiting ——— this page may be more organized than my life.
+<p>&nbsp;</p>
 
-✍️ Biography ｜ 个人简介
-======
+
+<h3>✍🏻 Biography | 个人介绍</h3>
 I'm a Ph.D. candidate (combined with Master program) at the School of Media and Communication, Shanghai Jiao Tong University, advised by [**Prof. Yi Mou**](https://cfmhmc.github.io/yimou.github.io/). My research interests focus on the impact of human-AI interaction (HAII) individual perceptions of intimacy and mortality. Before joining SJTU, I received my B.A. in Journalism from the School of Journalism, Chongqing University, advised by [**Prof. Junjie Pu**](https://sj.cqu.edu.cn/info/1138/5612.htm).
 
 I currently serve as the Assistant Editor for the journal *Big Data & Society*. I also serve as a peer reviewer for journals like *New Media & Society* and *Psychology of Popular Media*, and for conferences like ICA, NCA, AEJMC, IAMCR, ICIS, KACA, et al. I am the Student Committee Chair (2024-2026) for the Association for Chinese Communication Studies (ACCS, affiliated by NCA), and the Graduate Student Representative (2024-2025) for the Communication and the Future Division at the National Communication Association.
@@ -40,10 +41,9 @@ I currently serve as the Assistant Editor for the journal *Big Data & Society*. 
 
 我现担任英文期刊 *《大数据与社会》（Big Data & Society）* 助理编辑。我也担任英文期刊 *《新媒体与社会》（New Media & Society）*, *《大众媒介心理学》（Psychology of Popular Media）*，以及国际传播学会（ICA）, 美国传播学协会（NCA）, 新闻与大众传播教育协会（AEJMC）, 国际媒介与传播研究协会（IAMCR）, 信息系统国际会议（ICIS）, 韩-美传播学协会（KACA） 等学术会议审稿人。同时，我担任中华传播学会（NCA 附属组织）学生委员主席 (2024-2026) 以及美国传播学协会“传播与未来”分会研究生代表 (2024-2025)。
 
+<p>&nbsp;</p>
 
-
-🔬 Research Interests ｜ 研究兴趣
-======
+<h3>🔬 Research | 研究领域</h3>
 In an era where human-computer interaction continually reshapes societal dynamics, understanding the intricate relationship between artificial intelligence (AI) and human social structures is paramount. My academic pursuits are deeply rooted in examining how AI and communication technologies influence and transform our social relationships, societal norms, and underlying philosophies. Built upon the Computers as Social Actors (CASA) paradigm, I proposed the Social Actors as Computer-like (SAAC) hypothesis, trying to explore the reciprocal influence between humans and AI systems, particularly focusing on Intimacy and Death in the digital age, which I would like to frame my research as *Love, Death and Artificial Intelligence*.
 
 AI is reshaping social norms and values. People’s fear of death diminishes as digital immortality becomes normalized, and individuals choose to love robots or embrace robotic modes of love. While emerging media continues to change our existence, we still do not know whether the notion that SAAC is ultimately beneficial. However, I firmly believe it is imperative to explore this question thoroughly—before the singularity (or winter?) arrives.
