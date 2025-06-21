@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Jeff Jianfeng Lan ｜ 蓝剑锋"
+title                    : "About"
 title_separator          : "-"
 url                      : "https://jianfenglan.com"
 baseurl                  : ""
