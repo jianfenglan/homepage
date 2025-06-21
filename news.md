@@ -1,5 +1,5 @@
 ---
-title: "News: on my mind"
+title: ""
 permalink: /news/
 author_profile: true
 ---
